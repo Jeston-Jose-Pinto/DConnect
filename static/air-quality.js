@@ -30,8 +30,8 @@ function showError(error) {
 async function fetchData(position) {
     const lat = position.coords.latitude; // Use user's latitude
     const lon = position.coords.longitude; // Use user's longitude
-    const weatherApiKey = 'fe63cbf94273389383dc8f89963a50f8'; // Replace with your weather API key
-    const airQualityApiKey = 'fe63cbf94273389383dc8f89963a50f8'; // Replace with your air quality API key
+    const weatherApiKey = ' '; // Replace with your weather API key
+    const airQualityApiKey = ' '; // Replace with your air quality API key
     const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${weatherApiKey}&units=metric`;
     const airQualityUrl = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${airQualityApiKey}`;
     
